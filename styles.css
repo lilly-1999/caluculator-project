@@ -1,0 +1,40 @@
+.calculator{
+    width:200px;
+    margin:0 auto;
+    text-align:center;
+    
+}
+#display{
+    width:200px;
+    height:40px;
+    margin:5px 0;
+    font-size: 18px;
+    align-content:center;
+    
+    
+
+}
+.buttons{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-gap:2px;
+    
+}
+button{
+    width:100px;
+    height:60px;
+    font-size: 20px;
+    color: darkgoldenrod red green;
+    background-color: yellowgreen;
+
+    
+}
+.multiply{
+    color:black;
+    background-color: darkorange;
+    
+}
+.percentage{
+    color:black;
+    background-color:darkorange;
+}
